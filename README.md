@@ -1,1 +1,1 @@
-# 365-days-of-Arduino
+# 365 days of Arduino
