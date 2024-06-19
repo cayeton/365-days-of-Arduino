@@ -1,4 +1,4 @@
 # Week 1
 June 16 - June 22
 ## Project of the Week
-I dont know yet. ¯ \ _ (ツ) _ / ¯
+LED flash with multiple states (like those kid toys that change states when the button is press)
