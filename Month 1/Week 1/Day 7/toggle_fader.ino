@@ -42,13 +42,15 @@ void loop() {
   }
 
   if (triggerStatus && pressCount <=4){
-    analogWrite(LEDPins[2], 255/pressCount);
+    for (int i=0; i<LEDCount; i++) {
+      analogWrite(LEDPins[i], 255/pressCount);
+    }
   }
   else {
     pressCount = 0;
     triggerStatus = false;
-    for (int j=0; j<LEDCount; j++){
-      digitalWrite(LEDPins[j], LOW);
+    for (int i=0; i<LEDCount; i++) {
+      digitalWrite(LEDPins[i], LOW);
     }
   }
 }
